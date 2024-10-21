@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+/*
+li {
+    list-style: none;
+}
+*/
+body {
+    background-color: aliceblue;
+    margin: 4em 250px; /* emは上下 pxは左右の隙間*/
+}
+
+
+header img {
+    width: 100%;
+    max-width: 150px;
+    object-fit: contain;
+}
+main {
+    margin: 0em;
+}
+
+/*---------------------
+mainvisual
+---------------------*/
+#mainvisual {
+    display: block;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+  /* 水平方向の中央揃え */
+    text-align: center;
+
+    /*border : 1px solid maroon ;*/
+}
+
+/*---------------------
+index
+
+padding : 20px ;
+border : 5px solid maroon ;
+background-color : lightgreen ;
+---------------------*/
+
+#index {
+background-color : white ;
+margin: 4em 0px;
+padding: 0.5em 150px ;
+/*border : 1px solid maroon ;*/
+}
+#index h2 {
+/*border : 1px solid maroon ;*/
+}
+#index ol {
+    padding: 0em 20px;
+
+/*border : 1px solid maroon ;*/
+}
+#index li {
+    margin: 0em 0px;
+    padding: 0.5em;
+}
+
+#index section {
+background-color: aqua;
+
+/*border : 1px solid maroon ;*/
+}
+
+
+/*---------------------
+detail
+----------------------*/
+#detail {
+
+    /*border : 1px solid maroon ;*/
+    margin: 0em 0px;
+    padding: 3em 150px ;
+}
+#detail h2 {
+    margin: 0em 0px;
+    /*border : 1px solid maroon ;*/
+}
+#detail h3 {
+    margin: 0px;
+}
+#detail .semi {
+    display: flex;
+
+    /*border : 1px solid maroon ;*/
+
+}
+#detail .kani {
+    margin: 0em 0px;
+    padding: 1em 0px;
+    /*border : 1px solid maroon ;*/
+}
+
+#detail img {
+    width: 50%;
+    height: 50%
+    object-fit: scale-down;
+    margin: 5px;
+}
+
+#detail dl {
+    display: flex;
+
+    flex-wrap: wrap;
+    padding: 1em 0px;
+    border-top: 1px solid silver ;
+    border-bottom: 1px solid silver ;
+
+}
+
+.kani dt,.kani dd {
+    padding: 1px;
+}
+
+
+/*---------------------
+footer
+----------------------*/
+
+footer {
+    font-size: 6px;
+    text-align: center;
+}
+
+/*----------------------
+メディアクリア(スマホ用)
+-----------------------*/
+@media screen and (max-width: 600px) {
+
+}
